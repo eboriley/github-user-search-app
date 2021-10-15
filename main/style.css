@@ -53,15 +53,13 @@ body {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: -ms-grid;
   display: grid;
   -ms-flex-line-pack: center;
       align-content: center;
   font-family: 'Space Mono', monospace;
 }
-
-
 
 h1, p, a {
   font-size: clamp(1rem, 2vw, 1.2rem);
@@ -125,7 +123,7 @@ h1, p, a {
   display: -ms-flexbox;
   display: flex;
   background: var(--bg-container);
-  margin: .5rem 0;
+  margin: 1rem 0;
   padding: .4rem;
   border-radius: 10px;
   -webkit-box-align: center;
@@ -167,28 +165,28 @@ h1, p, a {
 }
 
 .search .search__input input::-webkit-input-placeholder {
-  color: var(--icon-color);
+  color: var(--text);
   opacity: 1;
   font-size: clamp(0.8rem, 2vw, 1.2rem);
   font-family: 'Space Mono', monospace;
 }
 
 .search .search__input input:-ms-input-placeholder {
-  color: var(--icon-color);
+  color: var(--text);
   opacity: 1;
   font-size: clamp(0.8rem, 2vw, 1.2rem);
   font-family: 'Space Mono', monospace;
 }
 
 .search .search__input input::-ms-input-placeholder {
-  color: var(--icon-color);
+  color: var(--text);
   opacity: 1;
   font-size: clamp(0.8rem, 2vw, 1.2rem);
   font-family: 'Space Mono', monospace;
 }
 
 .search .search__input input::placeholder {
-  color: var(--icon-color);
+  color: var(--text);
   opacity: 1;
   font-size: clamp(0.8rem, 2vw, 1.2rem);
   font-family: 'Space Mono', monospace;
@@ -221,7 +219,6 @@ h1, p, a {
 
 .search .btn-search:hover {
   cursor: pointer;
-  background: rgb(93, 163, 243);
 }
 
 .profile {
@@ -284,7 +281,7 @@ h1, p, a {
   -ms-grid-column-span: 3;
   grid-column: 1 / span 3;
   border-radius: 10px;
-  padding: 1.5rem 0;
+  padding: 1.1rem 0;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
