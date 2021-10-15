@@ -3,7 +3,6 @@
   --OFF: ;
 }
 
-.theme-default,
 .theme-light {
   --light: var(--ON);
   --dark: var(--OFF);
@@ -55,6 +54,7 @@ body {
 
 body {
   height: 100vh;
+  min-height: 100%;
   display: -ms-grid;
   display: grid;
   -ms-flex-line-pack: center;
@@ -80,10 +80,11 @@ h1, p, a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 750px;
+  padding: 1.4rem 0;
 }
 
 .header h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .header .theme-toggle {
