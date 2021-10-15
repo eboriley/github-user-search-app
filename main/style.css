@@ -228,7 +228,7 @@ h1, p, a {
       grid-template-columns: [row1-start] 20% [row1-end row2-start] 40% [row2-end row3-start] 40% [row3-end];
   -ms-grid-rows: (auto auto)[3];
       grid-template-rows: repeat(3, auto auto);
-  padding: 1.6rem;
+  padding: 1.1rem;
   margin: .5rem 0;
   border-radius: 10px;
   background: var(--bg-container);
