@@ -53,8 +53,6 @@ body {
 }
 
 body {
-  height: 100vh;
-  min-height: 100%;
   display: -ms-grid;
   display: grid;
   -ms-flex-line-pack: center;
@@ -156,7 +154,6 @@ h1, p, a {
 .search .search__input input {
   background: var(--bg-container);
   border: none;
-  height: 28px;
   color: var(--text);
   width: 100%;
   font-size: clamp(0.8rem, 2vw, 1.2rem);
